@@ -8,7 +8,7 @@ A free, browser-based reel planner and editor. No account, no API key, no server
 - Captions and hashtags from a built-in keyword list (not live trends)
 - Video editor: upload images/videos, text overlays, title/end cards, your own audio, 9:16 preview
 - Export on your device (MP4 if your browser can encode it, otherwise WebM), 540x960
-- Projects saved in the browser (localStorage). Clearing browser data removes them.
+- Projects, favorites and settings are saved in the browser (localStorage). Editor media (images, video, audio) is saved in IndexedDB on this device. Clearing browser data removes everything. Backup/Restore covers projects, favorites and settings, not media files.
 
 ## Also included
 - Social Tools: title, description and call-to-action generators (templates), thumbnail creator (PNG), content calendar (planner only)
